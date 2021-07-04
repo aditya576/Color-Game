@@ -1,0 +1,86 @@
+body{
+  background-color: #c0dffe;
+}
+#h{
+  text-align: center;
+  width: 80%;
+  margin-bottom:0px;
+  margin-left:110px;
+  color:#c0e4ff;
+  font:102px serif;
+  background-color:#cc000c;
+}
+#result{
+  font-size:20px;
+}
+#colorgenerator{
+  margin-right:60px;
+}
+#heading{
+  text-align: center;
+  font:70px serif;
+}
+#reset{
+  font-weight:700;
+  font-family:inherit;
+  border:0;
+  background-color:blue;
+  font-size:24px;
+}
+.mode:hover,#reset:hover{
+  background-color:red;
+}
+.mode{
+  font-weight:700;
+  font-family:inherit;
+  border:0;
+  background-color:blue;
+  font-size:24px;
+}
+.selected{
+  background-color: black;
+  color:white;
+  border:none;
+}
+.container{
+  margin:20px auto;
+  max-width:500px;
+}
+.square-easy{
+  background:white;
+  height:40%;
+  float:left;
+  border-radius:20%;
+  margin:1.5%;
+  transition:background 0.7s;
+  width:45%;
+}
+.square-medium{
+  background:white;
+  height:23%;
+  float:left;
+  border-radius:20%;
+  margin:1.5%;
+  transition:background 0.7s;
+  width:35%;
+}
+.square-hard{
+  background:white;
+  height:15%;
+  float:left;
+  border-radius:20%;
+  margin:1.5%;
+  transition:background 0.7s;
+  width:20%;
+}
+.square-ultra{
+  background:white;
+  height:15%;
+  float:left;
+  border-radius:20%;
+  margin:1.5%;
+  transition:background 0.7s;
+  width:9%;
+}
+
+/*40,45;22,40;15,20;15,9;*/
